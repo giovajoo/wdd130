@@ -51,7 +51,7 @@ article {
     position: absolute;
     bottom: 40px;
     width: 60%;
-    left: 180px;
+    left: 250px;
     right: 0x;
     margin: 50x;
     background-color: rgba(245, 245, 220, .6);
@@ -69,7 +69,7 @@ h1 {
     font-family: var(--heading-font);
     font-size: 45px;
     color: white;
-    background-color: rgba(125, 125, 125, 0.106);
+    background-color: rgba(125, 125, 125, 0.257);
   }
 
 p {
