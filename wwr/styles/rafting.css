@@ -51,9 +51,9 @@ article {
     position: absolute;
     bottom: 40px;
     width: 60%;
-    left: 0px;
+    left: 40px;
     right: 50x;
-    margin: 50px;
+    margin: 100px;
     background-color: rgba(245, 245, 220, .6);
     padding: 1rem;
 
