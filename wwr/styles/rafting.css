@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans&display=swap');
+
+:root {
+    
+    --primary-color: #2364AA;
+    --secondary-color: #3DA5D9;
+    --accent1-color: #73BFB8;
+    --accent2-color: #FEC601;
+  
+    --heading-font: 'Arimo', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #2364AA;
+    --nav-link-color: black;
+    --nav-hover-link-color: #73BFB8;
+    --nav-hover-background-color: #3DA5D9;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    padding: 0px;
+}
+
+nav a {
+        text-decoration: none;
+        size: 3em;
+      }
+
+.hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: relative;
+      }   
+
+.hero h1 {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
+ article {
+        position: absolute;
+        float: right;
+        width: 300px ;
+        height: auto;
+        top: 50%; 
+}
+
