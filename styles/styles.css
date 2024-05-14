@@ -1,15 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
 }
+
 nav a {
 color: white;
 display: block;
 padding: 20px;
 }
+
 h1 {
     color: steelblue;
+    padding: .5rem;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -17,34 +27,55 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 10px;
 }
+
 main {
     max-width: 840px;
 }
+
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #ffead7;
-    color: #333;
+    width: 20em;
     text-align: center;
+    position: relative;
 }
+
 aside img {
     width: 200px;
     height: auto;
 }
+
+aside h2 {
+    position: absolute;
+    top: 18px;
+    left: 140px;
+}
+
 main img {
     width: 150px;
     height: auto;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
+
 p {
     padding: 0;
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color:#fdf2e3;
+    color: #000 
+}
+
