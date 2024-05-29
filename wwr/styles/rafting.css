@@ -106,45 +106,39 @@ body {
     grid-template-columns: 2fr auto 1fr; 
     align-items: center;
     background-color: #3DA5D9; 
-    padding: 20px 0; /* Espaciado interno del encabezado */
-    color: #fff; /* Color del texto del encabezado */
-    margin-bottom: 80px;
-   
-    
+    padding: 20px 0; 
+    color: #fff; 
+    margin-bottom: 80px; 
     
 }
 
-/* Estilos para el logo */
 .header img {
     max-width: 100px ;
     justify-self: center;
 
 }
 
-/* Estilos para la navegación */
 .header nav {
     display: flex;
     justify-self: ce;
     margin-left: auto;
 }
 
-/* Estilos para los enlaces de navegación */
+
 .header nav a {
-    color: white; /* Color del texto de los enlaces */
-    text-decoration: none; /* Sin subrayado en los enlaces */
-    margin-left:  30px; /* Margen izquierdo entre los enlaces */
-    
+    color: white; 
+    text-decoration: none; 
+    margin-left:  30px;    
 
 }
 
-/* Estilos para los enlaces de navegación al pasar el ratón */
 .header nav a:hover {
-    text-decoration: underline; /* Subrayado al pasar el ratón sobre los enlaces */
+    text-decoration: underline; 
 }
 
 main {
     max-width: 1000px;
-    margin: 0 auto; /* Establecer los márgenes automáticos para centrar el contenido */
+    margin: 0 auto; 
 }
 
 .hero {
@@ -209,33 +203,30 @@ section img {
 }
 
 .footer {
-    background-color: #3DA5D9; /* Color de fondo del footer */
-    color: #fff; /* Color del texto del footer */
-    padding: 10px; /* Espaciado interno del footer */
-    text-align: right; /* Alineación del texto al centro */
+    background-color: #3DA5D9; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: right; 
     display: flex;
     justify-content: center;
     margin-top: 80px; 
     align-items: center;
 
-
 }
 
-
-/* Estilos para los enlaces de redes sociales */
 .sociallinks { 
     display: flex;
 }
 
 .sociallinks a {
-    display: inline-block; /* Mostrar los enlaces en línea */
-    margin-left: 10px; /* Margen horizontal entre los enlaces */
+    display: inline-block; 
+    margin-left: 10px; 
 }
 
-/* Estilos para las imágenes de las redes sociales */
+
 .sociallinks img {
-    width: 32px; /* Ancho de las imágenes */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 32px;
+    height: auto; 
     
 }
 
