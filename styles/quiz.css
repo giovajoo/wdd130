@@ -62,7 +62,7 @@ select {
         display: flex;
         justify-content: center; 
         align-items: center; 
-        height: 0 30px; 
+        height: 30px; 
         background-color: black;
         margin: 0.3rem;
     }
