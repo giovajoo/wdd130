@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Bitter, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: left;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    align-items: center;
+    
+}
+
+label, input, button, select, textarea {
+    font-family: Arimo, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+select {
+    padding: 0.6rem;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.form{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 0 30px; 
+        background-color: black;
+        margin: 0.3rem;
+    }
+
+.text {
+
+    padding: 10px;
+    font-size: 0.8rem;
+    color: white;
+    text-align: left;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color:#fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
