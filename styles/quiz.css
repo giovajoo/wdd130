@@ -83,4 +83,5 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    justify-items: center;
 }
