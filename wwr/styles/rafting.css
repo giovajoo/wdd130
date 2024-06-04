@@ -276,6 +276,7 @@ section img {
 
 .contact-content {
   text-align: center; 
+  display: grid;
 }
 
 .information {
@@ -289,10 +290,9 @@ section img {
   color: #000;
 }
 
-.contact-form {
-    margin-right: 20px;
-    font-family: Arimo, sans-serif;
-    float: left; 
+.form-container {
+  float: left !important;
+  display: grid;
 }
 
 
@@ -330,35 +330,18 @@ textarea {
     border-radius: 5px;
 }
 
-.styled {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  text-align: center;
+button {
+  margin: 1rem;
+  background-color: navy;
   color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color:#2364AA;
-  background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-  );
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
 }
 
-.styled:hover {
-  background-color: rgba(255, 0, 0, 1);
-}
-
-.styled:active {
-  box-shadow:
-    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+button:hover {
+  background-color: darkgreen;
 }
 
 
@@ -375,13 +358,14 @@ label.checkbox-label {
   position: relative; 
   display: flex; 
   justify-content: center; 
-  height: 80vh; 
+  height: 90vh; 
   align-items: center;
+  flex-grow: 0;
 }
 
 .map {
   display: grid;
-  width: 500px;
+  width: 440px;
   
   
 }
@@ -393,16 +377,28 @@ iframe {
     height: 400px; 
   
 }
-.customer-services p {
+
+.customer-services {
+  text-align: center; 
+  display: block;
+  align-items: center
+;
+}
+
+.customer {
+  display: inline-block; 
+  margin-bottom: 10px;
+  
+}
+
+.customer p {
   text-align: center;
   font-size: 1.2rem;
-  line-height: 1.8rem;
-  padding: 8px;
   color: #000;
 
 }
 
-.contact-images {
+.employee-photos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ; 
   grid-gap: 10px;
@@ -411,13 +407,13 @@ iframe {
   
 }
 
-.contact-images figure {
+.employee-photos figure {
   margin: 10px;
   text-align: center;
   
 }
 
-.contact-images img {
+.employee-photos img {
   width: 80%; 
   height: 80%;
   object-fit: cover;
@@ -427,7 +423,7 @@ iframe {
   
 }
 
-.customer-services figcaption {
+.employee-photos figcaption {
   margin-top: 5px;
   font-style: italic;
   font-size: 15px;
