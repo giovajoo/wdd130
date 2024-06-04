@@ -331,7 +331,7 @@ textarea {
 }
 
 
-button[type="send"] {
+button[type="send-message"] {
   display: block; 
   margin: 0 auto; 
   padding: 10px 20px;
@@ -343,7 +343,7 @@ button[type="send"] {
   font-size: 1rem;
 }
 
-button[type="send"]:hover {
+button[type="send-message"]:hover {
   background-color:#73BFB8;
 }
 
