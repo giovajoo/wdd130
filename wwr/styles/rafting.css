@@ -140,7 +140,7 @@ body {
 }
 
 main {
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto; 
 }
 
@@ -296,6 +296,7 @@ section img {
 .form-container {
   float: left !important;
   display: grid;
+  margin-left: 80px;
 }
 
 
@@ -335,7 +336,7 @@ textarea {
 
 button {
   margin: 1rem;
-  background-color: navy;
+  background-color: #2364AA;
   color: #fff;
   border: none;
   border-radius: .5rem;
@@ -343,9 +344,7 @@ button {
   font-size: 1.2rem;
 }
 
-button:hover {
-  background-color: darkgreen;
-}
+
 
 
 label.checkbox-label {
@@ -361,14 +360,14 @@ label.checkbox-label {
   position: relative; 
   display: flex; 
   justify-content: center; 
-  height: 90vh; 
+  height: 115vh; 
   align-items: center;
   flex-grow: 0;
 }
 
 .map {
   display: grid;
-  width: 440px;
+  width: 550px;
   
   
 }
@@ -495,12 +494,11 @@ iframe {
 
 }
 
-
 .content-trips {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 20px; 
-  padding: 10px; 
+  padding: 20px; 
   margin-top: -15px;
   
 }
@@ -524,7 +522,7 @@ iframe {
 }
 
 .trip img {
-  width: 300px;
+  width: 400px;
   height: 200px;
   object-fit: cover;
   border: 0.8px solid gray;
@@ -558,6 +556,19 @@ th {
 
 
 
+
+.home {
+  width: 100%;
+  max-width: 100%;
+  margin-top: -60px;
+}
+
+.home img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 
 
