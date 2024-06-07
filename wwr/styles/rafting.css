@@ -630,8 +630,8 @@ th {
   margin-top: 0; 
   text-align: center;
   font-size: 30px;
-  color: #eee;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  color: #000;
+  text-shadow: 2px 2px 4px rgba(247, 243, 243, 0.9);
 }
 
 .purpose p {
